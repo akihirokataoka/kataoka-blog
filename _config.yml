@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: kataokaのブログ
+lang: ja
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  kataokaのブログは、ロボカップジュニアに参加している中の人の進捗やつぶやきを載せるためのブログです。
+  ぜひご覧ください
+twitter_username: @aki_rcjj
+github_username: kataoka95
 minimal_mistakes_skin: default
 search: true
 
@@ -58,34 +58,29 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "kataoka"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : ロボカップジュニア２年目のkataokaです。
+  location: "滋賀県,日本"
   links:
-    - label: "Website"
+    - label: "このサイト
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://kataoka95.github.io/kataoka-blog/
+    - label: "X
+      icon: "fa-solid fa-x"
+      url: "https://x.com/aki_rcjj"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/kataoka95
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "X"
+      icon: "fa-solid fa-x"
+      url: "https://x.com/aki_rcjj"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -113,3 +108,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+TODO:日本語化させる
