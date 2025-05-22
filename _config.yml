@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: kataokaのブログ
+baseurl: "/kataoka-blog"  # ←この行を必ず追加
+url: "https://kataoka95.github.io"  # ←GitHubユーザー名に合わせて変更
 lang: ja
 email:
 description: >- # this means to ignore newlines until "baseurl:"
@@ -31,7 +33,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo
 
 include:
   - _pages
@@ -63,15 +65,15 @@ author:
   bio    : ロボカップジュニア２年目のkataokaです。
   location: "滋賀県,日本"
   links:
-    - label: "このサイト
+    - label: "このサイト"
       icon: "fas fa-fw fa-link"
-      url: "https://kataoka95.github.io/kataoka-blog/
-    - label: "X
+      url: "https://kataoka95.github.io/kataoka-blog/""
+    - label: "X"
       icon: "fa-solid fa-x"
       url: "https://x.com/aki_rcjj"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kataoka95
+      url: "https://github.com/kataoka95"
 
 footer:
   links:
@@ -80,7 +82,7 @@ footer:
       url: "https://x.com/aki_rcjj"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/kataoka95"
 
 defaults:
   # _posts
