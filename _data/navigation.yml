@@ -1,9 +1,9 @@
 main:
-  - title: "投稿"
+  - title: "投稿一覧"
     url: /posts/
   - title: "カテゴリー"
     url: /categories/
-  - title: "タグ"
+  - title: "Tag"
     url: /tags/
-  - title: "このサイトについて"
+  - title: "About"
     url: /about/
