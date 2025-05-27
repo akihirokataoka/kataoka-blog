@@ -31,7 +31,7 @@ plugins:
 
 author:
   name   : "kataoka"
-  avatar: "{{ site.baseurl }}/assets/images/bio-photo.jpg"
+  <img src="{{ site.baseurl }}/assets/images/bio-photo.jpg">
   bio    : ロボカップジュニア2年目のkataokaです。
   location: "滋賀県,日本"
   links:
