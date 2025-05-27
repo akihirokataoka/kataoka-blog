@@ -7,5 +7,3 @@ main:
     url: "/about/"
   - title: "カテゴリー"
     url: "/categories/"
-  - title: "タグ"
-    url: "/tags/"
