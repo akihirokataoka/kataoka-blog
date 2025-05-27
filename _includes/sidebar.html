@@ -13,14 +13,7 @@
     </nav>
   {% endif %}
 
-  {% comment %}
-  最近の投稿セクション（多言語対応）
-  {% endcomment %}
-  {% assign lang = site.lang | default: "en" %}
-  {% assign ui = site.data.ui-text[lang] %}
-  <h3 class="archive__subtitle">
-    {{ ui.recent_posts | default: "最近の投稿" }}
-  </h3>
+  <h3 class="archive__subtitle">最近の投稿</h3>
 
   <ul class="archive__list">
     {% for post in site.posts limit:5 %}
