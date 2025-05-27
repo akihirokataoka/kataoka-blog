@@ -1,6 +1,5 @@
 ---
-title: "Posts by Year"
-permalink: /posts/
-layout: posts
-author_profile: true
+permalink: /about/
+title: "このサイトについて"
 ---
+このサイトは、Github Pagesを使用し運営しています。
