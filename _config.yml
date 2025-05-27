@@ -2,6 +2,7 @@ title: kataokaのブログ
 baseurl: "/kataoka-blog"
 url: "https://kataoka95.github.io"
 lang: ja
+locale: ja
 email:
 description: >-
   kataokaのブログは、ロボカップジュニアに参加している中の人の進捗やつぶやきを載せるためのブログです。
