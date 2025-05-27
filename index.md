@@ -10,4 +10,3 @@ title: kataoka のブログへようこそ！
 
 - [最新記事を見る](/kataoka-blog/posts/)
 - [このサイトについて](/kataoka-blog/about/)
-TODOとにかく日本語化したい
