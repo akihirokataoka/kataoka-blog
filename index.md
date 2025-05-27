@@ -8,5 +8,5 @@ title: kataoka のブログへようこそ！
 
 ぜひご覧ください
 
-- [最新記事を見る](/kataokablog/posts/)
-- [このサイトについて](/kataokablog/about/)
+- [最新記事を見る](/kataoka-blog/posts/)
+- [このサイトについて](/kataoka-blog/about/)
