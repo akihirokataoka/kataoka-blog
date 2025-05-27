@@ -11,6 +11,7 @@ ja:
   read_time:
     one: "約1分"
     other: "約%{count}分"
+    less_than: "1分未満"
   post_date: "%{date} に公開" 
   share: "共有"
   more: "続きを読む"
